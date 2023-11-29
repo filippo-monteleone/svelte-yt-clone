@@ -1,0 +1,20 @@
+{
+	"name": "@project/ui",
+	"version": "0.0.0",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"autoprefixer": "^10.4.15",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.0.0",
+		"dayjs": "^1.11.9",
+		"svelte": "^4.2.0",
+		"svelte2tsx": "^0.6.21",
+		"tailwind-config": "workspace:^",
+		"tailwind-merge": "^1.14.0",
+		"tailwindcss": "^3.3.3"
+	},
+	"exports": {
+		".": "./src/**/*.svelte"
+	}
+}
